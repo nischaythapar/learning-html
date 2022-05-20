@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<! this is how an html comment works!>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <! meta element gives extra meta data to our html document and this case we are telling our browser that all the data inside this html document is encoded using the utf-8 !> 
+        <! mojibake is the problem if we change the encoding !>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Nischay's personal site</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>
+            Nischay Thapar
+        </h1>
+        <p>Aspiring student of web development</p>
+        <p>currently pursuing btech from <a href="https://www.lnmiit.ac.in/">lnmiit jaipur</a>
+           <table cellspacing="20">
+               <tr>
+                   <td>
+                    
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgWFhYZGRgaGhwYGhwaHBwcIxwcHhwaGhwcHhweIS4lHCErIRoaJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHBISHzQrJSQ0NDQxNDE0NDQxNDE0MTE0MTQ0NDQ0NDE0NDQxNDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAACAwABBAUGBwj/xABEEAACAgADBQQHBAcHAwUAAAABAgARAxIhBDFBUWEFInGBBhORobHR8DJCksEUFVKC0uHxQ1NicpOisgcjwjM0RGOD/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECAwUEBv/EACkRAAICAgEEAQMEAwAAAAAAAAABAhEDEiEEMUFRIhNhkRSBsfAFUnH/2gAMAwEAAhEDEQA/AKOJCziCscgHKeOe6FhgVZlleIl5gd2kZYqpmhZndqgB5oyA+MUySoACXpwlFhyhAAjl7ZQUzVKRrMp8Mg75a4g4CAFjYYAu/LTWZiPq5odM2uoi0q6u4slFYSWbGsvF0IN+U0IqjfFY4XlcJ2QG82h90WAAeEoL4/KTLRlAaoN9+yCXPISZRW8wVXpALzHiJaPzJj1QVuinW9w9stgosvASHGPhIBrz47pGZRvEgKzDfevWWbOvvkVxyBkxXG4QC1OtyzUFCOXvhaHdUM0Gj1IzRZ37t0ZlgyAWksSil85YQcoBBIz1vqSuUhB5QAGcHdBy9POOXDlKwupUy0KyyTTlHL4SRsKLzCQPCqWkwQtYakeESz9fZKF3cGjUSo4wdDFXcLJ1kbJQDpUpNNTDLyCasgLYo6+yBv3Co3FAMBCAYBVECZ8SzuF+6aXMVmrSDQzDGnI+R0jGTqPhACwmNczIAHTpFg/R3RrY+bTOKgkA6AhjwAO/pOyxT/1f4OX1Ydtl+UeZbtpsRj6sd0bjzHO9w3XrL7O7cY4vq3o3oCN9+U+h7L6X7OgCvhrhsbJW0FkGvM6TzXb/AGjsu0Y+GEw1D5s+YKoOlkEsDY3ec+x4sejp9kedDPmc0mnyxgxDxkXXhDLr5ykdfrWecesAR0lMRy8DGYj8h7olQ3ISgagNXLKeUutPoRddZAGU84JJGle2Q5uFSesPEC5QGBJiHrr9dIujf0JWoPG4MjWPMfGCB1MXn56RoaxIaADgc40MD/SAE5mU2JwuAEXH1cS5J6Qje+WLP0IAGb6uXDyDn75IBA8L1giwnWFddYMjcMBv6RyqBF4bmoSvUjAwipnd+FQ2JggSUaBVYZMhgAGUBCV6q+JkqCmJygBHDH9JStR3X7poDWNR7IC0QTy4QgDn4mYsA4mOxVKVdMzHcL0FnmToAIPbm2rhlFy5mchQBzgr2hirhAJhBAvfYOR3mRg4Iok65QKO6el0bx423JK/Fnldcs2SKjjbrzQztrYV2fKvrQ7sLKhStLusmzx0HnD7PKomdqz4iv6sfsohVHcX94s4UdA06Y2fD2hSzqpLKGvcaq9G36aaTn9q7CwVQmuXDbDS9KzPnGYjhqTdD7E9XPmbwtLueP0+CKzLbscFtrwgAmKiuFojOBYFXobFk2KF63EejwRsfFxEoXZVNBSs3LpQHnFekGwYuCoc4uHiFwBlQa1RpqBoLpprZ5aTg+r2jZcZWxEdGFNlYFbU7xR4EXPN/TylF+LPZXUwjJeT6RqeArrLcHhp4S8DEVkVkNqwDA9CLEFl5/GeW+HR6ad8gg84RblIoB+rlsOUFAzm41KPKCFoaaQa56wBgTwluagqsmUSApnkUy0QXLdBzgCiOnskB6RybQBwuDdxYKVpRAPASixHWGr6boAm+FysuusPPwoSZBvlAXqz9ASpKH0ZUAYydZMkAPcbw4yAoChrLvpAZxfH3RiEH7IEpkcrdIRAmZ3rQ6GRMQyUWxzIOBuLah+ctRyhPhkjX2QUQ+p85MtRypQgNcWAkc7jOl2V2aMdmXPlpc1gXxGlX1nIIJnb9He1MPCdlctmZRlCqWNDMWJAGg0E7YYqU0mfP1MpRxNx7nnu1OxGG2KWdWVAWFXd7lBBGm+953TQmzB2CHTN3b5Dj7rmnbdpXGdsRT3WPd0I7vA0dRxl9kofXIP8R+BnWVPMkuyaOOJyXTty702C75cR0H3Wquh1GngfdJtu2YaLmd1RhqubW+mUasDyE5PpRmXFV0cpfdLVY0JoN8PIzh7T2oyuc/q85oDEUZ2QcStmlNXWl6756+1HjKDlyez7O2/Dzq+OEU4j5VGUKEVSt77JcuUBJ40PuzB/1F2tHbCNU4VrsVSkjJqd5+17TPG+vbatpwwtoisiIN+Vc49pJ1PWe8/6g9nhkzm87UL6CgABuA8JhdRGL+Rv9JKXKOR6PEnZ0NVq1eGdqnRKmZ9jQJhogH2VVd3IanSNQ8TpPDyS2nKXtn6HHHWEY+kPA0lBZC4G6LOs5nQJyIDPX8otllKg43NEGjEEINyqAcIcDAOFWtwB56wG8ICectm5xQBNXwhqeUXUoxQGgnpCD8yIltJSC9f5xQsa7r4+EEEdIOTpKs8paJZeYcl9skrMeQkgpYSGxNVc6rbNsx/t3/0j/FB/QtmP/wAhv9NvnGr/AKznuvv+DlUKmjCBG4ib12HZuG0+3Cf5yP2fh7/Xj8Dj4xq/6xsvv+DnsCTqZYUDrNn6Dh1rjqOhVr9wIjtl7H9Zm9XiI1b9GGnOyKmtWHNLuc4bR4wl2i+cYuygmhiIp3Ekt/DGr2cvHacH/f8AwyaMOaQpnJ5QSjGbv1avDGwv93yg/oAH9th+GYj4rJqxujEia6w/0dlxBi4bOrqpAKsCKYVZ0o6E1XOa3TIt+sQk6d1jY0/y2PEajhrEbfsrulh0NCwufIWbmxF0BwFndqTOsFr8rMTe3Bl2fIFAGgGgu9a0/KdLsPZc+PYNhVZr4XWUe8iYE2DIgLslKNe9ZNbzr4XOT2V6SNhYi44BGHVFWqip1O7UNu9lcye3S4JZclrsuT5utzxxYtfL4Rv9IeyXxs6Uc66snFx+0h3E7rHHQjfU+f8A6DqQzbuG728p9pxtq2XbcLNhY6FgO6Sf9mIu/pz4jr899JsHBQ2XUPffyYhdarfmKAg7tMzGelKNnk4sjXByuyk/7uEq0CcRAvjmE+m+kJDocw3ag+FfKfG9m25RtGEynKi4iMWN2QGFk3uFXpP0jjLs64dPkysPvUbHOz8Z82XC3R9uPMl45PmWE1gVuIuC6EzrjsXE+4qhfujOpocBq17pR7C2g6hP9yfxTzXBp9j1I5YtJ2cbKRLrqZ2B2BtHHDJHQr+RmfH7LxFZVZSGa8q2LahZoDU7uEmr9M0px9o5xJlhvGdJOysY78Fx4q35C4ttgxg2X1bZt4GU94dLFn8ocZJ00N4+0ZAsgYCbW7K2j+5f8LfKAOy8e9cHE/C35CNX6G8fZiZ+n5SAzYezcf8Aun/A35iLPZ+Nxw3HijfKXVjZexAlORe+OOy4g3o/4W+US+C37JvwIkotop8Sxz6QFN9PA1CKHkZMO73QCsvI+01CINb76ayO7EVr9dYK4hGlQA7P1cuB+lfWskCx1QlMEHlcIJ9azBocl7wIGJjP4Q8NjVXUrETrAM6WeZ6z1e1n9F2XIv8A6j7+Yvf7BpOd6PbFnxM7fZTveLcBrp18ontnbPWYhb7o7q+HPznRPWN+zhL5yS8LuctEYjdHerqTNKzGYs7DA46yqYndK9b4Smxz09khDQqiDj0BQ3xAxTAJJqGVDGaxR8D7NZ5vadmVXIUlaoDvch1+E9DkLaDedJg7d7Mxk7z4YCUBmTVdOJPAnrPW/wAVqpNt/seR/l9nFKK89/SPNbb2aHNkre4EHKfbr+c4eJsZGIqA5iTQF5q61xrfw3Tp9oYxQEjl19vKdD0Ewi74mK2tAKvS9Wrlwn3dXlx44uVcnxdHiyTai3wej9EfR/DYd8Ug0AXQsdxLNvOvKe3fZlClKzIFCBL1C1lAFnUCvfPN9kWj5CdALXwvd5Q/STtNkTMjsrDXStd/Ag8/hPOn1Dyvl8eEejj6ZY1258s0n0fxmXNhLmW2UUV0okc+kzn0f2kb8Jvd85k2XGxgP/c4oLNnIUhBdAEUoFDTdNK7Zihg3rXJAq8xOlk0daO8758c3Cnr3PsSy/YA7H6tgMQjNdZVIJG+8zDQbt2p185iamzYh0c5RoNw4KOg5ee8mdNcVHPfGQ/tKoA/eWq81rwM5204YQMjWToOYoWQR0N3pznPHNN0+9Fp+Re04hJsMR4GDg47gg5iRe4k/XnATQb5FTqZts0oo1YO2YhX7bWCVPearBrn5+cNdpxbvO/4m+cy7B3lZuDOxHgO6D4HLfnNRQTDk0zaiqGjbcUf2jjwdvnB/WeOu7GxPxN85j1zbtLhtXzi37JrH0bl7bx/71/xN84xe3No/vm9pM45deZjAv8AO5dn7J9OPpHTHb20bvXN9eIl/r/aRvxGP7qn8pylSjcYr2SAI2fsfTj6RvPb20k/bHiUQ/8AjL/XWPxdD/8Anh/wTDemoikUG5Nn7H04+kdL9c43/wBf+kn8Mk51dJJd5ex9OHo0gSwDwuPQrW6Q4l8a8JzNEwsL9rSTQ93fyqDmGlkkec6XYewHELPdKvHrGrb4Dkoq2bMbFXB2cIrW7fa8T9rWvL2TgnAs7xHbdtWdyd6jRedDjEqh56TUnf7GYRpf9BOHRrQwTgneaEY+GZnZTdXMnQjIOYglZpwsHTU+7fFPhygtEEDHHKWqmLf3SMiH7D9teU7Hau2DIRfScbZSFILEbiQL1oGr6XrXh4Xn7V2z/tljpvn0Y00j58jUnweK2jYFxtoKIo3+Q5seQ1ns+y9gTZwEwwcp7xJ1JagCfcNJk9HNiCYecjv4nfJ5A6qPZr4mdHFaiDymM2Ry+Pg6YsajzXJNoxGUFkFsutcxxHj8pi7Yxxi4IIBDbjz5GdAMM4P7QrzEwYGzBcVkZu4+q8Rpw8R8pMMvDLlj5NWxYmZFPGhfiNCI5zMeMwwHCn7LtlHQncfPQec3Keck40zUJWgRAbBBYNrYFEA1Yo0Dv3H61j2ccBA9YJm67BpPuZEwX+8o8jd899V/OA2yu2h7q8aPeI5X93x1PhvnQVxxhNszFc4Rig3tRrlvl2FpcMz+rUAAaAaADSgOFSBRKLxZbrIWw2S+JlBa4xYIvfGIPrSCkCjlLA6SM/Q+yAH6QC8nSEqyZJZNdYBZghRBLGWX6e+AXQkgZpIolmtEJGghlCP6xCPW6GddSZGyljDLEAbyaAnf27axg7OuCoKs32swr/Md99IHo1so72M2ipu421X7h8ROP2ptBxXZzzoXwUbh9c50Xxjfs4Opzrwv5KQA72Etl4givfM2EvLwmtFoa8ZzO4Kr9CCm/j7IegH5SggP5QCO46wH8YSre/f8YLJIBT4lXod3wiTihl0IuaGTzi3wVbeoM0jLR549sIuKzPqDu47tBpyqYtv7XG0sEzrhoKzFmA040N5PhPRbR2LgMO8mblbMa8LM8F25sCYWIVRwynUDXu8KJO+fZCUZvjg+WSljXs9qfSTZV0GJoNNFev8AjNW0bagQOzBVIsFtN/Q6+U+f9nbYmGrE4SviWMjNqq9cvE3rEbRtL4hLMxY9eHgOHlI+nTYXUNLk9cfSLZ6HebMpoUp1EM9t4bsmRjnDZgKYXpqLPMcJ4cCadmw3sMisSDdgE7vCX6MFyPrykqZ9C9Ih6zBVxv015GZh6T7PuYsDx7pOvHdGdjYnr8FlGp31v14ivGeK7a2Y4eM6EVrY8DqIWNS4l4I8uvY9vhekGzMa9YB/mBX3kVOimIjaggg8QQQfMT5WohCR9NHwyrqJeUfVVInUPbbjD9WqqO6FLXwArdwM+eej3ZOOCHLlFqwLvOD/AIboDxnqNZ8uSEU6uzs4rIk2hxAMBsMSgeenlLAB+9IdKE5BGIFHESMtb7lZuUoGZl5++Qkc/eIGXp74Iw24VBoL1o6+6Cz/AFcOjxqLbUwZGphjiwHnCOAvAwAgkoxYL9UOZkkzSoBaseXujMDCZ2VF3k0IrJe4Tv8Ao5soRXx3IAUFVB5/eNeGntljG2ZnKlY7tfGGFhLs66H72o3Xv36ZvhPNsp56TTtTM7s5vU3XIcovDwusSlbJCNIZg4Q0jcUgaSJgny+uEU+H1mTYB1lr4wckHzijQ+OVLGpmNWPONTEMlAtk6y1SoS666QTUAF1ng/S7s1xjFwCyuBRAsAgVl03br857hieBgkHnN45aO0YnHZUfMNn7NxXNLhuf3TXt3Ceg2D0VIpsY/uKfi3y9s9aV6wHE6yzyfbg5xwRj35OXh9nYSHu4aDyv3nWNcADSOxBE1c4Nt9zskvByNvVk7uG7KmISxRSQC4ocOBFaUZwdv2R1ZQUIJ0G7U8vGet2pTl03gg6eY/Oec7YdyfskBWtiGB0Bq+am6ns4Pl01vweLnWvVceTT25gJhYWHhZFGLQZ3AF8dL46/CN9FOyUxWZ31VCAF4E79eg5dZzO0Nlc4pti913j4DTynoPRbBKK5P3iBXh/WfFKVQ4Z98Y3LlHqQnhUS4G8SrEAmfHR9gSmQDjwgiRjcoCZucWVElSqhAZfMyiR1gyVBkIIOsLLKVtILPJTNDUS431fIe2ZAx/ONGM0UZJUkr1hkigP2RC7qiAFmND8z7NZ1e28HDwyqISWq213DgK5x/o1sqoj7S24Aqv5nzOntnA2rHZ3dydSb/l5To0ox+7OKbnLjsv5CGJwG6ETzmcv5Sw98Zzo72aVNGQ2YrLLDwlRQzX9Ik+EIvCzXylMgKktgZZeFWg18rmTRE61CI474CtKfE+UqIyEQZBiiWXgpRglIYYc5C8gAbAUjfrM2LshrSbNJIBz8EAGn46cpz9uyaoLNkWeAAIJs+A3Tt42CjimF+74RI2FAKA036z64dTrj0SPjn022Xds4eNjJX2defOL2bEcMGQXzB006dZ19q7NBFgXFbHsBU3dDl1nBTR9TiOTa2+9hYg6gK3/E37pF7UwyctsG/ZKMD7MtzaqysbAVhTAMORF/GTZeRTMy7cjbix/cf45dZP0tf8X4H+UH9BC/YYitynvAdB94DpdSjhPyQ/vFfdR+Mvx8E5GDa04uF/zd3/lU0hb1vfMS4b690fiHyhbNspVw+i6G1SyGJ3FtANNdw85GkVNmvLzhVJJUyaIUgERgkqAKZfoQQdI4rIVEtmTPm8ZcdkEqLB6X0r2tcNE2dKAUCwPcPz9k8spN/WkLbsZmZmY2zEkmKRhxE1OWzsxjhpGjQh6y1AuArDlI6cZg6j7gO55TMH1jU5ZriqAxcS98jGoJQjdAOYb4AepkZjKbSEo4mACzmQgSgeP17ZD4SgoiWLkrncquR/nACK3BrnJUseP15yAtj1MiuecLu9ZbaiADZ5wkxAOMADlKKQBruIN3BA00HwlV9VJQHVALwYN+EtEsYGkZhAU8pKgoYaWG8YsL0h5TAJcmbpJcGDIRaUTILlSgstKJ+ql5pDABzdPdJL16yQAQo5yNQ4SSSGhfrNdNBCfE4cJJJTISoPGA3WXJIaIniekshuJkkgA2KJ103xysd0kkMFumkRrwkkhAOrrWSrkkgBBTUtQDwkkgFsgHD3yKoMkkgCYEfs+yWqkySQCBJMn1UkkAEiAyjlJJCBaChpUmfwkklMg421KoJbQDfv8AygbJt+HiAlTmANHQjXzEkk1qqJbseTKCS5JgpREo7tZUkqKys8JWEkkrIi7XmfrykkkkB//Z" alt="picture not found">
+                   </td>
+                   <td>
+                    <br>
+                    
+                   <br>
+                   <b>
+                       hi Aspiring student of web development</b>
+                   <br>
+                   <strong>hi Aspiring student of web development</strong>
+                   <br>
+                   <i>hi Aspiring student of web development</i>
+                   <br>
+                   <em>hi Aspiring student of web development</em>
+                   <br>
+                   </td>
+               </tr>
+           </table>
+           
+           
+            </p>
+       
+        <hr>
+        <a href="myhobbies.html">my hobbies</a>
+        <h3>books and teachings</h3>
+        <p>the schools i have attended are aps, silver oak and central academy./p>
+        <ul>
+            <li>the complete ios app development bootcamp
+
+            </li>
+            <li>the complete web development bootcamp</li>
+        </ul>
+        <h3>
+            work experience
+        </h3>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Month</th>
+                    <th>Clubs</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    2021 
+                </td>
+                <td>
+                    may-june
+                </td>
+                <td>
+                    Training and placement cell
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2021 
+                </td>
+                <td>
+                    June- July
+                </td>
+                <td>
+                    Alumni Association
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2021 
+                </td>
+                <td>
+                    december
+                </td>
+                <td>
+                    Sankalp Club
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2022 
+                </td>
+                <td>
+                    March- April
+                </td>
+                <td>
+                    Debate Society
+                </td>
+            </tr>
+        </tbody>
+        </table>
+        <ul type="circle">
+            <li>milk</li>
+            <li>cheese</li>
+            <ul type="square">
+                <li>blue cheese</li>
+                <li>feta</li>
+            </ul>
+        </ul>
+        <hr>
+        <ul><li>first</li>
+        <li>second</li>
+        <ul>
+            <li>
+                second first
+            </li>
+            <li>second second</li>
+            <ul>
+                <li>
+                    second second first
+                </li>
+                <li>second second second</li>
+                <li>second second third</li>
+            </ul>
+            <li>
+                second third
+            </li>
+        </ul>
+        <li>
+            third
+        </li>
+        </ul>
+        <p>
+            this is rafael nadal winner of 21 grand slam titles in lawn tennis.
+        </p>
+        <hr>
+        <h3>
+            skills
+        </h3>
+        <table border="3" cellspacing="10"
+            <tr>
+                <td>
+                    C ⭐⭐⭐⭐
+                </td>
+                
+                   
+                
+                <td>
+                    photography       ⭐⭐
+                </td>
+               
+            <tr>
+                <td>
+                    C++        ⭐⭐⭐⭐
+                </td>
+               
+            </tr>
+            <tr>
+                <td>
+                    web development⭐⭐⭐
+                </td>
+               
+            </tr>
+        </table>
+        <hr>
+        <h4>
+            <a href="contact.html">Contact Me</a>
+        </h4>
+       <hr>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
